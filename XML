@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pendidikan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pendidikan.xsd">
+	<mahasiswa matkul="web service">
+		<nama>Rahmi Nurdin</nama>
+		<npm>1154109</npm>
+		<kelas>D4TI2A</kelas>
+		<jk>perempuan</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>rahmi@gmail.com</email>
+		<ipk>3.5</ipk>
+		<agama>islam</agama>
+		<kampus>poltekpos</kampus>
+	</mahasiswa>
+	
+	<mahasiswa matkul="mobile programming">
+		<nama>Muammar</nama>
+		<npm>1154108</npm>
+		<kelas>D4TI2A</kelas>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>ammar@gmail.com</email>
+		<ipk>3.5</ipk>
+		<agama>islam</agama>
+		<kampus>poltekpos</kampus>
+	</mahasiswa>
+	
+	<mahasiswa matkul="database">
+		<nama>A.Wali</nama>
+		<npm>1154107</npm>
+		<kelas>D4TI2A</kelas>
+		<jk>perempuan</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>wali@gmail.com</email>
+		<ipk>3.5</ipk>
+		<agama>islam</agama>
+		<kampus>poltekpos</kampus>
+	</mahasiswa>
+	
+	<mahasiswa matkul="RPL">
+		<nama>Eka Pratama</nama>
+		<npm>1154106</npm>
+		<kelas>D4TI2A</kelas>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>eka@gmail.com</email>
+		<ipk>3.5</ipk>
+		<agama>islam</agama>
+		<kampus>poltekpos</kampus>
+	</mahasiswa>
+	
+	<mahasiswa matkul="SAP">
+		<nama>Faisal Syarief</nama>
+		<npm>1154105</npm>
+		<kelas>D4TI2A</kelas>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>ompes@gmail.com</email>
+		<ipk>3.5</ipk>
+		<agama>islam</agama>
+		<kampus>poltekpos</kampus>
+	</mahasiswa>
+	
+</Pendidikan>
