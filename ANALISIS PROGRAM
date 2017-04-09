@@ -1,0 +1,14 @@
+1.	Pada File XML yang telah saya buat  terdapat 5 file xml, masing-masing terdapat atribut, dengan 10 elemen, termasuk salah satunya adalah email. 
+2.	Pada file schema atau XSD yang telah saya buat, terdapat element email yang sudah digunakan pattern “@” dan juga “.” . Artinya, pada file schema ini mempunyai sebuah aturan/validasi bahwa jika pada saat kita menginputkan data email tidak mengikuti aturan dari file schema ini seperti tidak ada “@” dan “.”  atau salah satunya, maka akan terjadi error. 
+
+Mengapa? karena didalam aturan pembuatan emailnya sudah di tentukan pattern nya, bila tidak sesuai dan di validate maka akan terjadi error karena tidak sama dengan aturan yang di buat di file xsd.
+ 
+3.	Untuk menggabungkan antara file xml dan file schema, dibutuhkan sebuah referensi menggunakan namespace atau referensi ke file schema tersebut berikut adalah Pendefinisian untuk menghubungkan file xml dan file schema : 
+
+<Pendidikan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pendidikan.xsd">
+ 
+*code diatas adalah code untuk menghubungkan file xml dan xsd yang sudah dibuat 
+ 	 
+
+KESIMPULAN :
+Menurut pemahaman saya, jika diumpamakan XSD sama dengan daftar isi, sedangkan XML sama dengan isi dari daftar isi tersebut. Jika XSD dan XML nya tidak sama/tidak sesuai, maka akan terjadi error. 
